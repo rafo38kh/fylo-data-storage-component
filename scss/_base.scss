@@ -29,6 +29,7 @@ body {
   display: grid;
   grid-template-rows: 1fr auto;
   justify-items: center;
+
   @media (min-width: 1140px) {
     background-color: $color-veryDarkBlue;
     background-image: url("../images/bg-desktop.png");
