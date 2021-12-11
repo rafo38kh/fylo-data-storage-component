@@ -12,7 +12,7 @@
   @media (min-width: 1140px) {
     flex-direction: row;
     align-items: end;
-    margin-bottom: 24rem;
+    margin-bottom: 26rem;
     width: 70%;
     gap: 3rem;
   }
@@ -30,11 +30,11 @@
       width: 60%;
     }
 
-    animation: transparent 1s ease-in-out alternate;
+    // animation: transparent 1s ease-in-out alternate;
   }
   &__logo {
-    opacity: 0;
-    animation: transparent 0.5s ease-in-out 500ms alternate forwards;
+    // opacity: 0;
+    // animation: transparent 0.5s ease-in-out 500ms alternate forwards;
   }
   &__base-box {
     display: flex;
@@ -52,8 +52,8 @@
     align-items: center;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
       rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
-    opacity: 0;
-    animation: transparent 0.6s ease-in-out 700ms alternate forwards;
+    // opacity: 0;
+    // animation: transparent 0.6s ease-in-out 700ms alternate forwards;
   }
 
   // &__img {
@@ -74,7 +74,7 @@
     @media (min-width: 1140px) {
       padding: 4rem;
     }
-    animation: transparent 1s ease-in-out alternate;
+    // animation: transparent 1s ease-in-out alternate;
   }
   &__paragraph {
     font-size: 1.3rem;
@@ -82,8 +82,8 @@
     @media (min-width: 1140px) {
       text-align-last: left;
     }
-    opacity: 0;
-    animation: transparent 0.6s ease-in-out 800ms alternate forwards;
+    // opacity: 0;
+    // animation: transparent 0.6s ease-in-out 800ms alternate forwards;
   }
   &__number-one {
     font-weight: 700;
@@ -96,7 +96,7 @@
     border-radius: 1.5rem;
     padding: 0.2rem;
     opacity: 0;
-    animation: transparent 0.6s ease-in-out 1s alternate forwards;
+    // animation: transparent 0.6s ease-in-out 1s alternate forwards;
   }
   &__gradient {
     position: relative;
@@ -115,16 +115,16 @@
       right: 0.2rem;
       top: 0.2rem;
     }
-    opacity: 0;
-    animation: transparent 0.8s ease-in-out 1.2s alternate forwards;
+    // opacity: 0;
+    // animation: transparent 0.8s ease-in-out 1.2s alternate forwards;
   }
   &__storage {
     display: flex;
     justify-content: space-between;
     font-weight: 700;
     font-size: 1.2rem;
-    opacity: 0;
-    animation: transparent 0.8s ease-in-out 1.4s alternate forwards;
+    // opacity: 0;
+    // animation: transparent 0.8s ease-in-out 1.4s alternate forwards;
   }
   // &__zero {
   // }
@@ -165,8 +165,8 @@
         top: 6rem;
       }
     }
-    opacity: 0;
-    animation: transparent 0.8s ease-in-out 1.7s alternate forwards;
+    // opacity: 0;
+    // animation: transparent 0.8s ease-in-out 1.7s alternate forwards;
   }
   &__silver {
     font-size: 1.3rem;
