@@ -1,0 +1,139 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("/images/bg-mobile.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-size: 1.6rem;
+  font-family: "Raleway", sans-serif;
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: 1fr auto;
+  justify-items: center;
+}
+
+.fylo {
+  font-size: 1.4rem;
+  width: 100%;
+  padding: 0 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 2rem;
+}
+.fylo__base {
+  background-color: #1d2c67;
+  width: 100%;
+  padding: 4rem;
+  border-radius: 1rem 12rem 1rem 1rem;
+}
+.fylo__base-box {
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+  margin-top: 3rem;
+}
+.fylo__img-wrapper {
+  background-color: #0c122c;
+  height: 5rem;
+  width: 5rem;
+  border-radius: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.fylo__info {
+  position: relative;
+  color: #dddbff;
+  background-color: #1d2c67;
+  width: 100%;
+  padding: 4rem 4rem 6rem 4rem;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.fylo__paragraph {
+  font-size: 1.3rem;
+  text-align: center;
+}
+.fylo__number-one {
+  font-weight: 700;
+}
+.fylo__load {
+  background-color: #141f48;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  border-radius: 1.5rem;
+  padding: 0.2rem;
+}
+.fylo__gradient {
+  position: relative;
+  height: 1.5rem;
+  width: 70%;
+  border-radius: 1.5rem;
+  background-image: linear-gradient(to left top, #ffa399, #ff4d97);
+}
+.fylo__gradient::after {
+  content: "";
+  position: absolute;
+  height: 1.1rem;
+  width: 1.1rem;
+  background-color: white;
+  border-radius: 50%;
+  right: 0.2rem;
+  top: 0.2rem;
+}
+.fylo__storage {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+.fylo__number-two {
+  color: #0c122c;
+  position: absolute;
+  background-color: white;
+  padding: 1rem 2rem;
+  border-radius: 1rem;
+  text-transform: uppercase;
+  font-size: 4rem;
+  font-weight: 700;
+  bottom: -3rem;
+  left: 7rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.fylo__silver {
+  font-size: 1.3rem;
+  color: #848794;
+}
+
+.attribution {
+  width: 100%;
+  font-size: clamp(1rem, 2vw, 1.2rem);
+  text-align: center;
+  margin: 0 auto;
+  padding: 3rem 0 1rem 0;
+  transition: all 0.2s;
+}
+.attribution__link:link, .attribution__link:visited {
+  text-transform: uppercase;
+  transition: all 0.2s;
+}
+
+/*# sourceMappingURL=style.css.map */

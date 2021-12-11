@@ -1,25 +1,90 @@
 @use "./base" as *;
 
 .fylo {
+  font-size: 1.4rem;
+  width: 100%;
+  padding: 0 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 2rem;
+
   &__base {
+    background-color: $color-darkBlue;
+    width: 100%;
+    padding: 4rem;
+    border-radius: 1rem 12rem 1rem 1rem;
   }
   &__logo {
   }
   &__base-box {
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+    margin-top: 3rem;
   }
+  &__img-wrapper {
+    background-color: $color-veryDarkBlue;
+    height: 5rem;
+    width: 5rem;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
   &__img {
   }
   &__info {
+    position: relative;
+    color: $color-paleBlue;
+    background-color: $color-darkBlue;
+    width: 100%;
+    padding: 4rem 4rem 6rem 4rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
   }
   &__paragraph {
+    font-size: 1.3rem;
+    text-align: center;
   }
   &__number-one {
+    font-weight: 700;
   }
   &__load {
+    background-color: #141f48;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    border-radius: 1.5rem;
+    padding: 0.2rem;
   }
   &__gradient {
+    position: relative;
+    height: 1.5rem;
+    width: 70%;
+    border-radius: 1.5rem;
+    background-image: linear-gradient(to left top, #ffa399, #ff4d97);
+
+    &::after {
+      content: "";
+      position: absolute;
+      height: 1.1rem;
+      width: 1.1rem;
+      background-color: $color-white;
+      border-radius: 50%;
+      right: 0.2rem;
+      top: 0.2rem;
+    }
   }
-  &__storages {
+  &__storage {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+    font-size: 1.2rem;
   }
   &__zero {
   }
@@ -27,8 +92,23 @@
   &__thousand {
   }
   &__number-two {
+    color: $color-veryDarkBlue;
+    position: absolute;
+    background-color: $color-white;
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+    text-transform: uppercase;
+    font-size: 4rem;
+    font-weight: 700;
+    bottom: -3rem;
+    left: 7rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
   }
   &__silver {
+    font-size: 1.3rem;
+    color: $color-grayishBlue;
   }
 }
 
@@ -38,18 +118,18 @@
   text-align: center;
   margin: 0 auto;
   padding: 3rem 0 1rem 0;
-  color: $color-darkBlue;
+  //   color: $color-darkBlue;
   transition: all 0.2s;
 
   &__link:link,
   &__link:visited {
     text-transform: uppercase;
-    color: $color-violet;
+    // color: $color-violet;
     transition: all 0.2s;
   }
 
   &__link:hover,
   &__link:active {
-    color: $color-darkBlue;
+    // color: $color-darkBlue;
   }
 }
