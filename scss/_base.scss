@@ -1,0 +1,25 @@
+$Gradient: hsl(6, 100%, 80%) to hsl(335, 100%, 65%);
+
+$color-paleBlue: hsl(243, 100%, 93%);
+$color-grayishBlue: hsl(229, 7%, 55%);
+$color-darkBlue: hsl(228, 56%, 26%);
+$color-veryDarkBlue: hsl(229, 57%, 11%);
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "Raleway", sans-serif;
+  // - Weights: 400, 700
+}

@@ -1,0 +1,55 @@
+@use "./base" as *;
+
+.fylo {
+  &__base {
+  }
+  &__logo {
+  }
+  &__base-box {
+  }
+  &__img {
+  }
+  &__info {
+  }
+  &__paragraph {
+  }
+  &__number-one {
+  }
+  &__load {
+  }
+  &__gradient {
+  }
+  &__storages {
+  }
+  &__zero {
+  }
+
+  &__thousand {
+  }
+  &__number-two {
+  }
+  &__silver {
+  }
+}
+
+.attribution {
+  width: 100%;
+  font-size: clamp(1rem, 2vw, 1.2rem);
+  text-align: center;
+  margin: 0 auto;
+  padding: 3rem 0 1rem 0;
+  color: $color-darkBlue;
+  transition: all 0.2s;
+
+  &__link:link,
+  &__link:visited {
+    text-transform: uppercase;
+    color: $color-violet;
+    transition: all 0.2s;
+  }
+
+  &__link:hover,
+  &__link:active {
+    color: $color-darkBlue;
+  }
+}
