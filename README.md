@@ -24,7 +24,7 @@ This is a solution to the [Fylo Data Storage ComponentChallenge on Frontend Ment
 
 ### Links
 
-- Solution URL: []()
+- Solution URL: [https://www.frontendmentor.io/solutions/fylo-data-storage-component-with-bem-and-css-flexbox-HZ-UiT4S5](https://www.frontendmentor.io/solutions/fylo-data-storage-component-with-bem-and-css-flexbox-HZ-UiT4S5)
 - Live Site URL: [https://rafo38kh.github.io/fylo-data-storage-component/](https://rafo38kh.github.io/fylo-data-storage-component/)
 
 ## My process

@@ -20,7 +20,7 @@ html {
 }
 
 body {
-  background-image: url("/images/bg-mobile.png");
+  background-image: url("../images/bg-mobile.png");
   background-repeat: no-repeat;
   background-size: cover;
   font-size: 1.6rem;
@@ -31,7 +31,7 @@ body {
   justify-items: center;
   @media (min-width: 1140px) {
     background-color: $color-veryDarkBlue;
-    background-image: url("/images/bg-desktop.png");
+    background-image: url("../images/bg-desktop.png");
     background-size: 150rem;
     background-position: bottom -6rem left;
   }
