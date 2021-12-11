@@ -1,4 +1,4 @@
-$Gradient: #ffa399 #ff4d97;
+$Gradient: hsl(6, 100%, 80%) hsl(335, 100%, 65%);
 
 $color-paleBlue: hsl(243, 100%, 93%);
 $color-grayishBlue: hsl(229, 7%, 55%);
@@ -25,9 +25,14 @@ body {
   background-size: cover;
   font-size: 1.6rem;
   font-family: "Raleway", sans-serif;
-  // - Weights: 400, 700
   min-height: 100vh;
   display: grid;
   grid-template-rows: 1fr auto;
   justify-items: center;
+  @media (min-width: 810px) {
+    background-color: $color-veryDarkBlue;
+    background-image: url("/images/bg-desktop.png");
+    background-size: 150rem;
+    background-position: bottom -6rem left;
+  }
 }

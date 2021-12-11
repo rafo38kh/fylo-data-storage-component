@@ -22,22 +22,46 @@ body {
   grid-template-rows: 1fr auto;
   justify-items: center;
 }
+@media (min-width: 810px) {
+  body {
+    background-color: #0c122c;
+    background-image: url("/images/bg-desktop.png");
+    background-size: 150rem;
+    background-position: bottom -6rem left;
+  }
+}
 
 .fylo {
-  font-size: 1.4rem;
-  width: 100%;
-  padding: 0 3rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
   gap: 2rem;
+  font-size: 1.4rem;
+  width: 100%;
+  padding: 0 3rem;
+}
+@media (min-width: 810px) {
+  .fylo {
+    flex-direction: row;
+    align-items: end;
+    margin-bottom: 22rem;
+    width: 70%;
+    gap: 3rem;
+  }
 }
 .fylo__base {
   background-color: #1d2c67;
   width: 100%;
   padding: 4rem;
-  border-radius: 1rem 12rem 1rem 1rem;
+  border-radius: 1rem 10rem 1rem 1rem;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+@media (min-width: 810px) {
+  .fylo__base {
+    min-width: 25rem;
+    width: 60%;
+  }
 }
 .fylo__base-box {
   display: flex;
@@ -53,6 +77,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
 .fylo__info {
   position: relative;
@@ -64,10 +89,21 @@ body {
   display: flex;
   flex-direction: column;
   gap: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+@media (min-width: 810px) {
+  .fylo__info {
+    padding: 4rem;
+  }
 }
 .fylo__paragraph {
   font-size: 1.3rem;
   text-align: center;
+}
+@media (min-width: 810px) {
+  .fylo__paragraph {
+    text-align-last: left;
+  }
 }
 .fylo__number-one {
   font-weight: 700;
@@ -85,7 +121,7 @@ body {
   height: 1.5rem;
   width: 70%;
   border-radius: 1.5rem;
-  background-image: linear-gradient(to left top, #ffa399, #ff4d97);
+  background-image: linear-gradient(to right, #ffa399, #ff4d97);
 }
 .fylo__gradient::after {
   content: "";
@@ -113,10 +149,29 @@ body {
   font-size: 4rem;
   font-weight: 700;
   bottom: -3rem;
-  left: 7rem;
+  left: 50%;
+  transform: translateX(-50%);
   display: flex;
   align-items: center;
   gap: 1rem;
+  min-width: 17rem;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+@media (min-width: 1140px) {
+  .fylo__number-two {
+    bottom: unset;
+    top: -5rem;
+    left: 77%;
+  }
+  .fylo__number-two::after {
+    content: "";
+    position: absolute;
+    border-style: solid;
+    border-width: 0 3rem 3rem 0;
+    border-color: transparent #ffffff transparent transparent;
+    right: 0;
+    top: 6rem;
+  }
 }
 .fylo__silver {
   font-size: 1.3rem;
@@ -129,11 +184,17 @@ body {
   text-align: center;
   margin: 0 auto;
   padding: 3rem 0 1rem 0;
+  color: #dddbff;
   transition: all 0.2s;
 }
 .attribution__link:link, .attribution__link:visited {
   text-transform: uppercase;
+  color: #ff4d97;
   transition: all 0.2s;
+}
+.attribution__link:hover, .attribution__link:active {
+  color: #ff4d97;
+  font-weight: 700;
 }
 
 /*# sourceMappingURL=style.css.map */
