@@ -22,7 +22,7 @@ body {
   grid-template-rows: 1fr auto;
   justify-items: center;
 }
-@media (min-width: 810px) {
+@media (min-width: 1140px) {
   body {
     background-color: #0c122c;
     background-image: url("/images/bg-desktop.png");
@@ -41,7 +41,7 @@ body {
   width: 100%;
   padding: 0 3rem;
 }
-@media (min-width: 810px) {
+@media (min-width: 1140px) {
   .fylo {
     flex-direction: row;
     align-items: end;
@@ -57,7 +57,7 @@ body {
   border-radius: 1rem 10rem 1rem 1rem;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
-@media (min-width: 810px) {
+@media (min-width: 1140px) {
   .fylo__base {
     min-width: 25rem;
     width: 60%;
@@ -91,7 +91,7 @@ body {
   gap: 1rem;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
-@media (min-width: 810px) {
+@media (min-width: 1140px) {
   .fylo__info {
     padding: 4rem;
   }
@@ -100,7 +100,7 @@ body {
   font-size: 1.3rem;
   text-align: center;
 }
-@media (min-width: 810px) {
+@media (min-width: 1140px) {
   .fylo__paragraph {
     text-align-last: left;
   }
