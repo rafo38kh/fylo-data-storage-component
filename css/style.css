@@ -26,7 +26,7 @@ body {
   body {
     background-color: #0c122c;
     background-image: url("../images/bg-desktop.png");
-    background-size: 150rem;
+    background-size: 160rem;
     background-position: bottom -6rem left;
   }
 }
@@ -45,7 +45,7 @@ body {
   .fylo {
     flex-direction: row;
     align-items: end;
-    margin-bottom: 22rem;
+    margin-bottom: 24rem;
     width: 70%;
     gap: 3rem;
   }
